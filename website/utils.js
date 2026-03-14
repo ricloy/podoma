@@ -475,7 +475,7 @@ exports.getBadgesDetails = (projects, badgesRows) => {
 
 	// Meta badges
 	if(Object.keys(badges).length - 1 === Object.keys(projects).length) {
-		badges.meta.badges.push({ id: "all", name: res.__("Always there"), description: res.__("They have participated to all the projects"), acquired: true, progress: 100 });
+		badges.meta.badges.push({ id: "all", name: res.__("Always present"), description: res.__("They have participated to all the projects"), acquired: true, progress: 100 });
 	}
 	if(badges.meta.badges.length === 0) {
 		delete badges.meta;
